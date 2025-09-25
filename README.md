@@ -1,6 +1,6 @@
 # 🐳 PeppinoxAI – Docker Assistant
 
-**PeppinoxAI** is an intelligent assistant powered by a **Large Language Model (LLM)** that helps manage and orchestrate Docker containers using natural language.  
+**PeppinoxAI** is an intelligent assistant powered by **Large Language Model (LLM)** that helps manage and orchestrate Docker containers using natural language.  
 Users can simply write commands ihn natural language to create, run, stop, or remove containers without remembering the `docker` command syntax.  
 
 ---
@@ -23,7 +23,7 @@ Users can simply write commands ihn natural language to create, run, stop, or re
 ---
 
 ## 🧩 Architecture
-- **LLM**: currently powered by Google Gemini (via `langchain` and `langchain_google_genai`).  
+- **LLM**: currently powered by Google Gemini-flash (via `langchain` and `langchain_google_genai`).  
 - **Docker Tools**: a collection of Python functions executing Docker commands through `subprocess`.  
 - **LangChain Agent**: coordinates the model and the tools, guided by a custom system prompt.  
 
