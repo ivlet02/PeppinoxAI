@@ -31,7 +31,7 @@ Users can simply write commands ihn natural language to create, run, stop, or re
 
 ## 📌 Project Status
 This is the **first version** of PeppinoxAI (v0.1).  
-The project is experimental and may receive updates and improvements in the future, such as:  
+The project is the result of my bachelor's deegre final exam in Cybernetic Engineering and may receive updates and improvements in the future, such as:  
 - Adding graphical interfaces.  
-- Extending to Kubernetes or Podman.  
-- Supporting more application templates beyond Flask.
+- Extending to oder tools such as Kubernetes, Podman, etc... 
+- Supporting more application templates beyond Flask and Nginx.
